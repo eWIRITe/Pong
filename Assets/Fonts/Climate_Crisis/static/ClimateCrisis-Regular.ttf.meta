@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fcb3f6b41c9ad904a84961f6f88d77d7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Climate Crisis
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 47149d02b2550dc4db1ff1ce96a38776, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
