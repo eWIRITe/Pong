@@ -11,6 +11,6 @@ public class ScreenOrit : MonoBehaviour
     {
         if (AutoOrient) Screen.orientation = ScreenOrientation.AutoRotation;
 
-        else Screen.orientation = ScreenOrientation.LandscapeLeft;
+        else Screen.orientation = ScreenOrientation.Portrait;
     }
 }
