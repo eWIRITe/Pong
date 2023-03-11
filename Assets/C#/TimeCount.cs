@@ -36,8 +36,8 @@ public class TimeCount : MonoBehaviour
         if (MinTime == 0 || MinTime >= Timer) MinTime = Timer;
         PlayerPrefs.SetFloat(SavedName, MinTime);
 
-        MinTimeEverOnWinCanv.text = MinTime.ToString();
-        NowTimeOnWinCanv.text = Timer.ToString();
+        MinTimeEverOnWinCanv.text = Math.Round(MinTime, 1).ToString();
+        NowTimeOnWinCanv.text = Math.Round(Timer, 1).ToString();
         first = false;
     }
 }

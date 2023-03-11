@@ -87,6 +87,7 @@ public class CircleSkript : MonoBehaviour
         RenderLine(Camera.main.ScreenToWorldPoint(touchPos));
         
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.Rotate(0, 0, -90);
     }
 
     void OnStopType(Touch touch)
@@ -105,8 +106,8 @@ public class CircleSkript : MonoBehaviour
     {
         _forseCount.text = Math.Round(Vector2.Distance(touchPos, transform.position), 1).ToString();
 
-        _line.SetPosition(0, transform.position);
-        _line.SetPosition(1, new Vector3(touchPos.x, touchPos.y, 0));
+        _line.SetPosition(0, new Vector3(transform.position.x, transform.position.y, -0.1f));
+        _line.SetPosition(1, new Vector3(touchPos.x, touchPos.y, -0.1f));
     }
 
     void OnLoose()
